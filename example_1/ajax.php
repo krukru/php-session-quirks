@@ -5,7 +5,6 @@ $startTime = microtime(true);
 // Blocking session
 
 $sessionKey = 'session_key_foo';
-
 session_start();
 
 if (isset($_SESSION[$sessionKey]) === false) {

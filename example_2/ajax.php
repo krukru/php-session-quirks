@@ -15,7 +15,6 @@ session_start(
 if (isset($_SESSION[$sessionKey]) === false) {
     $_SESSION[$sessionKey] = 0;
 }
-
 $_SESSION[$sessionKey] += 1;
 
 sleep(1); // simulate some work being done

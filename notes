@@ -1,0 +1,22 @@
+Chrome blokira i pošalje samo 6 poziva odjednom
+Nije isto ako svi dobiju isti session token
+
+razni session provideri (no locks is worse than slow locks)
+CSRF i XSS
+https://pasztor.at/blog/stop-using-php-sessions
+
+Limiti su:
+TCP od browsera (rješava domain sharding)
+MPM (rješava se konfiguracijom/web serverom)
+
+Access-Control-Allow-Credentials + withCredentials
+CORS Cookie
+Pa je problem što svaki dobije svoje session?
+
+Database session?
+
+TODO:
+* organizirati screenshote
+* pojednostaviti strukturu foldera
+* pospajati dijelove tekstova u jednu povezanu cjelinu (kreni simple -> pa sve primjere -> pa ubaci sharding -> no locks
+ -> security)

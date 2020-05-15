@@ -16,3 +16,4 @@ And if at all possible, try to [avoid sessions in php](https://pasztor.at/blog/s
 you understand and agree with the points layed out in this blog.
 
 Happy coding!
+Start at [baseline](example_0)
